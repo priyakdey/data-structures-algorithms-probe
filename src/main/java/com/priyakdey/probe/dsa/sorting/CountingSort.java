@@ -40,7 +40,7 @@ public class CountingSort implements Sort<Integer> {
         }
 
         // Step 5. Iterate over original array and place them in correct position
-        int[] output = new int[length];
+        Integer[] output = new Integer[length];
 
         for (int i = length - 1; i >= 0; i--) {
             int element = arr[i];
